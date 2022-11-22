@@ -7,7 +7,7 @@ function App() {
   const [peso, setPeso] = useState(0);
 
   const debug = (event: ChangeEvent<HTMLFormElement>) => {
-    console.log(altura, peso);
+    alert(peso/altura^2)
     event.preventDefault()
   };
 
